@@ -39,7 +39,7 @@ function draw() {
     randombutton.visible = false
     manualsimb.visible = false
     fill("white");
-    text("Welcome to the car crash simulator. Please choose wether you want"+ 
+    text("Welcome to the car crash simulator. Please choose whether you want"+ 
     " random values or manual values by clicking on the buttons below. \n Please Ignore, the bar and submit button as they are to be used within the Manual section only.", 50, 100);
     textSize(50);
     drawSprites();
