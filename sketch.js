@@ -38,8 +38,10 @@ function draw() {
     manualbutton.visible = false
     randombutton.visible = false
     manualsimb.visible = false
+    iw.hide();
+    button.hide();
     fill("white");
-    text("Welcome to the car crash simulator. Please choose whether you want"+ 
+    text("Welcome to the car crash simulator. Please choose wether you want"+ 
     " random values or manual values by clicking on the buttons below. \n Please Ignore, the bar and submit button as they are to be used within the Manual section only.", 50, 100);
     textSize(50);
     drawSprites();
@@ -61,6 +63,8 @@ function draw() {
     iw.position(50, 105);
     button.position(iw.x + iw.width, 95);
     text("What is your weight?",40, 87);
+    button.show();
+    iw.show();
     textSize(20);
     
     fill("white");
@@ -114,6 +118,8 @@ function draw() {
     background("black");
     iw.position(550, 420);
     button.position(iw.x + iw.width, 430);
+    iw.hide();
+    button.hide();
     drawSprites();
     textSize(20);
     
